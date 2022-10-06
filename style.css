@@ -1,0 +1,26 @@
+/* reset default css starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* reset default css ends */
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 23%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
